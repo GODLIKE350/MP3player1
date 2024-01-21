@@ -1,0 +1,52 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mp3</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  
+
+
+</head>
+  <body>
+    <header>
+      <div class="nav">
+        <h2>
+        <span class="material-symbols-outlined"> headphones </span>Mp3Player
+      </h2>
+        <div class="section">
+            <input type="text" placeholder="Enter the name of music" />
+      <button id="search" type="button">search</button>
+        </div>
+      
+      <button id="enter" type="button">
+        <span class="material-symbols-outlined"> account_circle </span> Login
+      </button>
+      </div>
+        
+    </header>
+
+    <div class="middle">
+      <div class="innet_middle">
+        <aside>
+        <h3>Menu</h3>
+        
+      </aside>
+      </div>
+      <div class="display">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur vero voluptatem cum rem eos earum. Reprehenderit ducimus itaque et repudiandae.
+      </div>
+    </div>
+    <script src='{% static "scripts/main.js" %}'></script>
+  </body>
+</html>

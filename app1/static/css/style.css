@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+};
+
+html{
+    width: 100%;
+    
+}
+
+body{
+    background: rgb(35,0,43);
+    font-family: "Lexend", sans-serif;
+    background: radial-gradient(circle, rgba(35,0,43,1) 0%, rgba(0,10,79,1) 100%);
+}
+
+header{
+    padding: 20px 320px;
+}
+
+.nav{
+    background-color: rgb(119, 168, 211);
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: space-between;
+    padding: 0 15px;
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.75);
+}
+
+h2{
+    background-image: url(/img/rainbow-scroll.gif);
+    background-position: center;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    cursor: pointer;
+}
+
+.nav #search{
+    border: none;
+    background: none;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+}
+
+input{
+    height: 20px;
+    width: 180px;
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.section{
+    display: flex;
+}
+
+.nav #enter{
+    border: none;
+    background: none;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 6.5%;
+    cursor: pointer;
+}
+
+.innet_middle{
+    position: relative;
+}
+
+aside{
+    width: 300px;
+    position: fixed;
+    top: 90px;
+    left: 320px;
+    background-color: rgb(119, 168, 211);
+    height: 500px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.75);
+}
+
+aside h3{
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.display{
+    background-color: rgb(119, 168, 211);
+    width: 890px;
+    height: 700px;   
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.75);
+    margin-left: 500px;
+}
+
+.g>div{
+    width: 300px;
+    height: 300px;
+}
